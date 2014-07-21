@@ -1,4 +1,10 @@
-scala-fsm
-=========
+# Sequential Pattern Mining in Scala
 
-A Scala and Scalding based implementation of the SPADE algorithm 
+Sequential pattern mining is an important mining technique with a wide range of real-life applications.
+It has been found very useful in domains such as 
+
+* market basket analysis
+* marketing strategy 
+* medical treatment
+* natural disaster
+* user behavior analysis
