@@ -15,11 +15,13 @@ It is an extension to the concept of association rule mining and solves the prob
 relevant patterns in big datasets that specify (timely ordered) sequences of data.
 
 **Sequences from Transactions**
+
 In market basket analysis, a sequence is a list of different transactions of a certain customer, ordered by the transaction time. 
 Each transaction is a collection of the items a particular customer ordered. For marketeers it is very useful to determine which 
 item is bought one after another, and to predict from that which item will be probably bought next.
 
 **Sequences from Web Sessions**
+
 In the context of web mining, especially web usage mining, companies need to understand what motivates their customers to purchase 
 and how to influence the buying process to develop successful promotional activities.
 
