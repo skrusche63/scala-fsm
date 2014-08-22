@@ -38,6 +38,9 @@ case class ItemEquivalenceClassMap(
   items:HashMap[Item[java.lang.Integer],EquivalenceClass]
 )
 
+/**
+ * TODO: Check usage of flatMap
+ */
 class SpadeExtractor(args: Args) extends Job(args) {
 
   override implicit val mode = new Hdfs(true, new Configuration())

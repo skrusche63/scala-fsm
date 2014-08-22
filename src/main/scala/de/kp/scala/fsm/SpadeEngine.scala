@@ -60,7 +60,7 @@ class SpadeEngine (args: Args) extends Job(args) {
  
     println("==============================")
     for (i <- 0 until patterns.size()) {
-      println(patterns.get(i).toStringToFile())
+      println(patterns.get(i).serialize())
     }
     println("==============================")
     
